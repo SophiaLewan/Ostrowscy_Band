@@ -1,3 +1,38 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+
+  text-align: left;
+  color: white;
+  font-family: Montserrat;
+}
+
+/* ---------------------------- navigator ------------------------------------- */
+
+.navigator {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  text-decoration: none;
+
+  background-color: black;
+  position: fixed;
+  z-index: 10;
+  top: 0px;
+  width: 100%;
+  height: 70px;
+  flex-direction: row;
+  align-items: center;
+  font-size: 20px;
+}
+
+.navButtonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
 .navButton {
   position: relative;
   cursor: pointer;
@@ -7,18 +42,6 @@
   align-items: center;
 }
 
-.navButtonWrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 100%;
-}
-.phone {
-  font-size: var(--font-size-5xl);
-  font-family: var(--font-montserrat);
-  color: var(--color-gainsboro);
-}
-.frame-parent,
 .phoneWrapper {
   display: flex;
   justify-content: space-between;
@@ -38,244 +61,85 @@
   align-items: center;
   justify-content: center;
 }
-.frame-parent {
-  background-color: black;
-  position: fixed;
-  z-index: 10;
-  top: 0px;
+
+.phone {
+  font-size: 24px;
+  color: #d9d9d9;
+}
+
+/* ---------------------------- Hero ------------------------------------- */
+
+.heroWrapper {
+  margin-top: 70px;
   width: 100%;
-  height: 70px;
-  flex-direction: row;
-  align-items: center;
-  font-size: var(--font-size-xl);
 }
 
-.line-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-3xs);
-}
-.ob-logo-2-2-icon {
+.heroImage {
   position: relative;
-  width: 176px;
-  height: 161px;
+  width: 100%;
+  height: calc(100vh - 70px);
   object-fit: cover;
-}
-.ostrowscy-band {
-  position: relative;
-  display: inline-block;
-  width: 200px;
-  height: 23px;
-  flex-shrink: 0;
-}
-.est-2002 {
-  position: relative;
-  text-align: center;
-}
-.rodzinny-zesp-muzyczny {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 321px;
-  height: 23px;
-  flex-shrink: 0;
-}
-.ostrowscy-band-parent {
-  width: 321px;
-  height: 96px;
-  gap: 13px;
-}
-.ob-logo-2-2-parent,
-.ostrowscy-band-parent {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.vector-icon {
-  position: relative;
-  width: 17.2px;
-  height: 29.4px;
-  object-fit: cover;
-}
-.vector-wrapper {
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  cursor: pointer;
-}
-.socialImages {
-  position: relative;
-  width: auto;
-  height: 35px;
-  /* object-fit: contain; */
+  object-position: top center;
 }
 
-.vector-parent {
-  flex-shrink: 0;
+/* ---------------------------- Description Section ------------------------------------- */
+
+.decriptionSection {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: relative;
-  gap: var(--gap-3xs);
-  cursor: pointer;
-}
-.vector-icon4,
-.vector-icon5 {
-  position: relative;
-  width: 43.1px;
-  height: 31.7px;
-  object-fit: cover;
-  z-index: 0;
-}
-.vector-icon5 {
-  position: absolute;
-  margin: 0 !important;
-  top: 12px;
-  left: 18px;
-  width: 7.4px;
-  height: 8.4px;
-  z-index: 1;
-}
-.frame-div,
-.frame1,
-.vector-group {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.vector-group {
-  flex-shrink: 0;
   flex-direction: column;
-  position: relative;
-  gap: var(--gap-3xs);
-  cursor: pointer;
-}
-.frame-div,
-.frame1 {
-  flex-direction: row;
-  gap: 42px;
-}
-.frame1 {
-  width: 321px;
-  height: 355px;
-  overflow: hidden;
-  flex-shrink: 0;
-  flex-direction: column;
-  gap: 51px;
-}
-.kontakt1 {
-  position: relative;
-  font-weight: 600;
+  align-items: flex-start;
+  align-items: center;
+  width: 100%;
 }
 
-.ostrowscybandgmailcom {
-  position: relative;
-  text-decoration: underline;
-  font-weight: 600;
-  color: inherit;
-}
-.frame3,
-.parent {
-  height: 205px;
-  display: flex;
-}
-.frame3 {
-  width: 344px;
-  overflow: hidden;
-  flex-shrink: 0;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 89px;
-  margin-left: -202px;
-}
-.parent {
-  width: 345px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-  padding: 0 0 0 1px;
-  box-sizing: border-box;
-  color: var(--color-white);
-}
-.kontakt-parent {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 79px;
-}
-.frame,
-.frame2 {
-  height: 355px;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: flex;
-}
-.frame2 {
-  width: 345px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  font-size: var(--font-size-5xl);
-  color: var(--color-gainsboro);
-}
-.frame {
-  position: absolute;
-  top: 6500px;
-  width: 1336px;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 580px;
-  color: var(--text-white-222);
-}
-.frame-item {
-  position: relative;
-  border-top: 2px solid var(--color-gainsboro);
-  box-sizing: border-box;
-  width: 1345px;
-  height: 2px;
-}
-.created-designed-by-zofia-le-wrapper,
-.wszystkie-prawa-zastrzeone-wrapper {
-  width: 1343px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-3xs);
-  box-sizing: border-box;
-}
-.created-designed-by-zofia-le-wrapper {
-  text-align: center;
-}
-.frame-container {
-  position: absolute;
-  top: 10894px;
-  left: 2px;
-  width: 1440px;
-  height: 669px;
+.logoTopWrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  font-size: var(--font-size-xl);
+  padding: 10px;
+  box-sizing: border-box;
 }
-.offerImage {
+
+.logoTop {
+  position: relative;
+  width: 207px;
+  height: 189px;
+  object-fit: contain;
+}
+
+.socialWrapper {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.socialLinkContainer {
+  padding: 3px 5px;
+}
+
+.socialImages {
   position: relative;
   width: auto;
-  height: 798px;
-  object-fit: cover;
+  height: 35px;
 }
-.offerImageWrapper {
+
+.socialLinkContainer {
+  padding: 3px 5px;
 }
+
+/* ---------------------------- Offer Section ------------------------------------- */
+
+.offerScetion {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  align-items: center;
+  justify-content: center;
+}
+
 .titleOffer {
   font-weight: 400;
   font-size: 48px;
@@ -295,23 +159,14 @@
   color: white;
 }
 
-.jako-zesp-muzyczny-obsuguje-wrapper {
-  width: 723px;
-  flex-shrink: 0;
-  flex-direction: row;
-  padding: var(--padding-3xs);
-  box-sizing: border-box;
-  font-size: 30px;
+.offerImage {
+  position: relative;
+  width: auto;
+  height: 798px;
+  object-fit: cover;
 }
 
-.offerScetion {
-  margin-top: 55px;
-  display: flex;
-  flex-direction: column;
-  gap: 70px;
-  align-items: center;
-  justify-content: center;
-}
+/* ---------------------------- About us Section ------------------------------------- */
 
 .aboutUsSection {
   text-align: center;
@@ -327,6 +182,8 @@
   margin-top: 30px;
   font-size: 30px;
 }
+
+/* ---------------------------- Meet us us Section ------------------------------------- */
 
 .meetUs {
   margin-top: 80px;
@@ -347,6 +204,14 @@
   margin-top: 20px;
 }
 
+.meetUsParticipantsImage {
+  position: relative;
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+  margin: auto;
+}
+
 .meetUsParticipantsName {
   font-size: 40px;
   margin-bottom: 20px;
@@ -357,13 +222,7 @@
   font-size: 24px;
 }
 
-.meetUsParticipantsImage {
-  position: relative;
-  width: auto;
-  height: 300px;
-  object-fit: cover;
-  margin: auto;
-}
+/* ---------------------------- Gallery Section ------------------------------------- */
 
 .galleryTitle {
   text-align: center;
@@ -394,6 +253,8 @@
   object-fit: cover;
 }
 
+/* ---------------------------- Footer Section ------------------------------------- */
+
 .footerSection {
   margin-top: 150px;
 }
@@ -403,13 +264,6 @@
   margin: auto;
   background-color: white;
   height: 2px;
-}
-
-.authorSection {
-  padding: 30px 0px 30px 0px;
-  /* margin: 20px 0px 100px 0px; */
-  text-align: center;
-  font-size: 20px;
 }
 
 .footerGrid {
@@ -429,9 +283,18 @@
   box-sizing: border-box;
 }
 
-.portfolioLink a {
-  text-decoration: none;
-  color: white;
+.logoTop {
+  position: relative;
+  width: 207px;
+  height: 189px;
+  object-fit: contain;
+}
+
+.footerSocialWrapper {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
 }
 
 .footerPhone a {
@@ -443,600 +306,13 @@
   color: white;
 }
 
-.plw-1-icon1 {
-  position: absolute;
-  top: 1px;
-  left: 0;
-  width: 288px;
-  height: 432.6px;
-  object-fit: cover;
-}
-.n-1-icon,
-.n-1-icon1,
-.plw-1-icon2,
-.plw-1-icon3 {
-  position: absolute;
-  top: 0;
-  left: 576px;
-  width: 288px;
-  height: 432.8px;
-  object-fit: cover;
-}
-.n-1-icon,
-.n-1-icon1,
-.plw-1-icon3 {
-  left: 288px;
-  height: 431.6px;
-}
-.n-1-icon1,
-.plw-1-icon3 {
-  top: 1px;
-  left: 864px;
-  height: 432.8px;
-}
-.n-1-icon1 {
-  top: 0;
-  left: 1152px;
-  height: 432.1px;
-}
-.plw-1-parent {
-  position: relative;
-  width: 1440px;
-  height: 433.8px;
-}
-.group-wrapper {
-  width: 1438px;
-  height: 433.8px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.o-nas {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  font-weight: 600;
-  font-family: inherit;
-  display: inline-block;
-  width: 681px;
-  flex-shrink: 0;
-}
-.o-nas-wrapper {
-  width: 681px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-.modo-tradycja-rodzina-container {
-  position: relative;
-  display: inline-block;
-  width: 1427px;
-  height: 314px;
-  flex-shrink: 0;
-}
-.modo-tradycja-rodzina-za-wrapper {
-  width: 1427px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 32px;
-  color: var(--color-white);
-}
-.frame-frame,
-.frame4 {
-  flex-direction: column;
-  align-items: center;
-}
-.frame4 {
-  width: 1436px;
-  height: 433px;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: flex;
-  justify-content: space-between;
-}
-.frame-frame {
-  width: 1440px;
-  height: 468px;
-}
-.frame-frame,
-.frame-parent3,
-.frame-wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-.frame-wrapper {
-  width: 1438px;
-  height: 468px;
-  flex-direction: row;
-  align-items: center;
-}
-.frame-parent3 {
-  position: absolute;
-  top: 2665px;
-  left: 2px;
-  height: 930.8px;
-  flex-direction: column;
-  align-items: flex-start;
+.authorSection {
+  padding: 30px 0px 30px 0px;
   text-align: center;
-  color: var(--text-white-222);
-}
-.n-1-icon2 {
-  position: relative;
-  border-radius: var(--br-3xs);
-  width: 253px;
-  height: 332.2px;
-  object-fit: cover;
-}
-.n-1-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 253px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-.wojtek {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  font-weight: 500;
-  font-family: inherit;
-}
-.wojtek-wrapper,
-.zaoyciel-zespou-jego-mio-wrapper {
-  position: absolute;
-  top: 71px;
-  left: 330px;
-  width: 177px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-.zaoyciel-zespou-jego-mio-wrapper {
-  top: 143px;
-  width: 938px;
-  font-size: var(--font-size-5xl);
-}
-.group-div {
-  position: relative;
-  width: 1268px;
-  height: 332.2px;
-}
-.group-container {
-  width: 1364px;
-  height: 332.2px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-.osoba-od-zada-specjalnych-n-wrapper,
-.pawe-wrapper {
-  position: absolute;
-  top: 69px;
-  left: 330px;
-  width: 171px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: var(--padding-3xs);
-  box-sizing: border-box;
-}
-.osoba-od-zada-specjalnych-n-wrapper {
-  top: 143px;
-  width: 914px;
-  font-size: var(--font-size-5xl);
-}
-.n-1-icon3 {
-  position: relative;
-  border-radius: var(--br-3xs);
-  width: 253px;
-  height: 333px;
-  object-fit: cover;
-}
-.n-1-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 273px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: var(--padding-3xs);
-  box-sizing: border-box;
-}
-.frame-parent5 {
-  position: relative;
-  width: 1244px;
-  height: 353px;
-}
-.group-frame {
-  width: 1373px;
-  height: 353px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-.n-1-icon4 {
-  position: relative;
-  border-radius: var(--br-3xs);
-  width: 253px;
-  height: 333.8px;
-  object-fit: cover;
-}
-.jola-wrapper,
-.nasza-wokalistka-serce-i-dus-wrapper {
-  position: absolute;
-  top: 90px;
-  left: 330px;
-  width: 128px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: var(--padding-3xs);
-  box-sizing: border-box;
-}
-.nasza-wokalistka-serce-i-dus-wrapper {
-  top: 185px;
-  width: 914px;
-  font-size: var(--font-size-5xl);
-  color: var(--color-gainsboro);
-}
-.frame-parent6 {
-  position: relative;
-  width: 1244px;
-  height: 353.8px;
-}
-.group-wrapper1 {
-  width: 1373px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.frame-inner {
-  flex: 1;
-  position: relative;
-  border-radius: 20px;
-  max-width: 100%;
-  overflow: hidden;
-  height: 327.9px;
-  object-fit: cover;
-}
-.gitara-jest-dla-niego-niezwykl-wrapper,
-.piotrek-wrapper,
-.rectangle-wrapper {
-  position: absolute;
-  display: flex;
-  padding: var(--padding-3xs);
-  box-sizing: border-box;
-}
-.rectangle-wrapper {
-  top: 0;
-  left: 0;
-  width: 273px;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.gitara-jest-dla-niego-niezwykl-wrapper,
-.piotrek-wrapper {
-  left: 321px;
-  justify-content: space-between;
-}
-.piotrek-wrapper {
-  top: 92.4px;
-  width: 203px;
-  height: 69px;
-  flex-direction: column;
-  align-items: flex-start;
-}
-.gitara-jest-dla-niego-niezwykl-wrapper {
-  top: 177.4px;
-  width: 872px;
-  flex-direction: row;
-  align-items: center;
-  font-size: var(--font-size-5xl);
-}
-.frame-parent7 {
-  position: relative;
-  width: 1193px;
-  height: 347.9px;
-}
-.group-wrapper2 {
-  width: 1377px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.n-2-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-3xs);
-  width: 253px;
-  height: 341px;
-  object-fit: cover;
-}
-.mateusz {
-  margin: 0;
-  position: absolute;
-  top: 100px;
-  left: 322px;
-  font-size: inherit;
-  font-weight: 500;
-  font-family: inherit;
-}
-.jego-ywioem-na-container {
-  position: absolute;
-  top: 183px;
-  left: 322px;
-  font-size: var(--font-size-5xl);
-  color: var(--color-gainsboro);
-}
-.n-2-parent {
-  position: relative;
-  width: 962px;
-  height: 341px;
-}
-.frame-parent4,
-.group-wrapper3 {
-  width: 1378px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.frame-parent4 {
-  position: absolute;
-  top: 3653px;
-  left: 0;
-  width: 1440px;
-  height: 2023.8px;
-  align-items: center;
-  justify-content: space-between;
-  font-size: var(--font-size-21xl);
-}
-.heroImage {
-  position: relative;
-  width: 100%;
-  height: calc(100vh - 70px);
-  object-fit: cover;
-  object-position: top center;
-}
-.heroWrapper {
-  margin-top: 70px;
-  width: 100%;
-}
-.logoTop {
-  position: relative;
-  width: 207px;
-  height: 189px;
-  object-fit: contain;
-}
-.logoTopWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: var(--padding-3xs);
-  box-sizing: border-box;
-}
-.vector-container,
-.vector-parent1 {
-  flex-shrink: 0;
-  flex-direction: row;
-  align-items: flex-start;
-  cursor: pointer;
-}
-.vector-container {
-  width: 17.2px;
-  display: flex;
-  justify-content: space-between;
-}
-.vector-parent1 {
-  width: 29.4px;
-  position: relative;
-}
-.frame-parent9,
-.vector-parent1,
-.vector-parent2 {
-  display: flex;
-  justify-content: space-between;
-}
-.vector-parent2 {
-  height: 31.7px;
-  flex-shrink: 0;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-  cursor: pointer;
-}
-.frame-parent9 {
-  width: 146px;
-  flex-direction: row;
-  align-items: center;
+  font-size: 20px;
 }
 
-.socialWrapper {
-  align-items: center;
-  display: flex;
-  gap: 10px;
-  justify-content: space-between;
-}
-
-.footerSocialWrapper {
-  align-items: center;
-  display: flex;
-  gap: 30px;
-  margin-top: 50px;
-  /* justify-content: space-between; */
-}
-
-.socialLinkContainer {
-  padding: 3px 5px;
-}
-
-.frame-parent8 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  align-items: center;
-  width: 100%;
-}
-.galeria1 {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  font-weight: 600;
-  font-family: inherit;
-}
-.galeria-container {
-  width: 1441px;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-3xs);
-  box-sizing: border-box;
-}
-.n-1-icon5 {
-  position: relative;
-  width: 1432px;
-  height: 957px;
-  object-fit: cover;
-}
-.n-2-icon1,
-.n-2-wrapper {
-  width: 876.3px;
-  height: 681.7px;
-}
-.n-2-icon1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-}
-.n-2-wrapper {
-  position: relative;
-}
-.n-1-icon6,
-.plw-1-icon4 {
-  position: relative;
-  width: 534px;
-  height: 682px;
-  object-fit: cover;
-}
-.plw-1-icon4 {
-  width: 495px;
-  height: 656px;
-}
-.plw-1-container {
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.n-3-icon {
-  position: relative;
-  width: 919px;
-  height: 656px;
-  object-fit: cover;
-}
-.n-3-wrapper {
-  width: 919px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.n-1-icon7 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 950px;
-  height: 639px;
-  object-fit: cover;
-}
-.n-1-wrapper2,
-.plw-1-icon5 {
-  position: relative;
-  width: 950px;
-  height: 639px;
-}
-.plw-1-icon5 {
-  width: 467px;
-  object-fit: cover;
-}
-.plw-1-frame {
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.n-2-icon2 {
-  position: relative;
-  width: 867px;
-  height: 708px;
-  object-fit: cover;
-}
-.n-2-container {
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.n-1-icon8,
-.n-1-icon9 {
-  position: relative;
-  width: 535px;
-  height: 708px;
-  object-fit: cover;
-}
-.n-1-icon9 {
-  width: 1438px;
-  height: 959px;
-}
-.frame-parent10 {
-  position: absolute;
-  top: 7855px;
-  left: 1px;
-  width: 1445px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 28px;
-  text-align: center;
-  color: var(--color-gainsboro);
-}
-.rectangle-parent {
-  position: relative;
-  width: 100%;
-  height: 11680px;
-}
-.wrapper {
-  position: relative;
-  width: 100%;
-
-  text-align: left;
-  color: var(--color-white);
-  font-family: var(--font-montserrat);
+.portfolioLink a {
+  text-decoration: none;
+  color: white;
 }
