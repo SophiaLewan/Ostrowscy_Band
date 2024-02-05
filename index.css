@@ -74,11 +74,50 @@
   color: #d9d9d9;
 }
 
+@media only screen and (max-width: 900px) {
+  .navigator {
+    font-size: 14px;
+  }
+
+  .navButton {
+    padding: 0px 10px;
+  }
+
+  .phoneWrapper {
+    width: 150px;
+  }
+
+  .phone {
+    font-size: 16px;
+    color: #d9d9d9;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navigator {
+    font-size: 12px;
+  }
+
+  .navButton {
+    padding: 0px 6px;
+  }
+
+  .phoneWrapper {
+    width: 140px;
+  }
+
+  .phone {
+    font-size: 12px;
+    color: #d9d9d9;
+  }
+}
+
 /* ---------------------------- Hero ------------------------------------- */
 
 .heroWrapper {
   margin-top: 70px;
   width: 100%;
+  position: relative;
 }
 
 .heroImage {
@@ -87,6 +126,35 @@
   height: calc(100vh - 70px);
   object-fit: cover;
   object-position: top center;
+}
+
+.heroTittle {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  font-size: 70px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1300px) {
+  .heroTittle {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .heroTittle {
+    font-size: 40px;
+    left: 0%;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .heroTittle {
+    font-size: 30px;
+  }
 }
 
 /* ---------------------------- Description Section ------------------------------------- */
@@ -173,6 +241,34 @@
   object-fit: cover;
 }
 
+@media only screen and (max-width: 900px) {
+  .titleOffer {
+    font-size: 24px;
+  }
+
+  .descriptionOffer {
+    font-size: 16px;
+  }
+
+  .offerImage {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .titleOffer {
+    font-size: 20px;
+  }
+
+  .descriptionOffer {
+    font-size: 12px;
+  }
+
+  .offerImage {
+    height: 400px;
+  }
+}
+
 /* ---------------------------- About us Section ------------------------------------- */
 
 .aboutUsSection {
@@ -188,6 +284,26 @@
 .aboutUsDescription {
   margin-top: 30px;
   font-size: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  .aboutUsTitle {
+    font-size: 24px;
+  }
+
+  .aboutUsDescription {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .aboutUsTitle {
+    font-size: 20px;
+  }
+
+  .aboutUsDescription {
+    font-size: 12px;
+  }
 }
 
 /* ---------------------------- Meet us us Section ------------------------------------- */
@@ -229,6 +345,50 @@
   font-size: 24px;
 }
 
+@media only screen and (max-width: 900px) {
+  .meetUsTitle {
+    font-size: 24px;
+  }
+
+  .meetUsParticipantsGrid {
+    grid-template-columns: 200px 1fr;
+  }
+
+  .meetUsParticipantsImage {
+    height: 200px;
+  }
+
+  .meetUsParticipantsName {
+    font-size: 18px;
+  }
+
+  .meetUsParticipantsNameDescription {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .meetUsTitle {
+    font-size: 20px;
+  }
+
+  .meetUsParticipantsGrid {
+    grid-template-columns: 100px 1fr;
+  }
+
+  .meetUsParticipantsImage {
+    height: 100px;
+  }
+
+  .meetUsParticipantsName {
+    font-size: 16px;
+  }
+
+  .meetUsParticipantsNameDescription {
+    font-size: 12px;
+  }
+}
+
 /* ---------------------------- Gallery Section ------------------------------------- */
 
 .galleryTitle {
@@ -258,6 +418,39 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@media only screen and (max-width: 1300px) {
+  .galleryTitle {
+    font-size: 24px;
+  }
+
+  .galleryGrid {
+    gap: 10px;
+    grid-template-rows: 900px 600px 600px 600px 600px 900px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .galleryTitle {
+    font-size: 24px;
+  }
+
+  .galleryGrid {
+    gap: 10px;
+    grid-template-rows: 800px 400px 400px 400px 400px 800px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .galleryTitle {
+    font-size: 20px;
+  }
+
+  .galleryGrid {
+    gap: 10px;
+    grid-template-rows: 500px 250px 250px 250px 250px 500px;
+  }
 }
 
 /* ---------------------------- Footer Section ------------------------------------- */
@@ -322,4 +515,39 @@
 .portfolioLink a {
   text-decoration: none;
   color: white;
+}
+
+@media only screen and (max-width: 1300px) {
+  .footerGrid {
+    font-size: 20px;
+    padding: 30px 30px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .authorSection {
+    font-size: 16px;
+  }
+
+  .footerGrid {
+    grid-template-columns: auto;
+    gap: 30px;
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logoFooterWrapper {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footerSocialWrapper {
+    justify-content: center;
+  }
+
+  .authorSection {
+    font-size: 16px;
+  }
 }
