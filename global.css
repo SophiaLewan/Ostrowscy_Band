@@ -1,9 +1,14 @@
 html,
 body {
-  background color: black;
+  background-color: black;
   margin: 0;
   line-height: normal;
   background-color: #050505;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 /* Box sizing rules */
