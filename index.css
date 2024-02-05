@@ -1,10 +1,8 @@
-<<<<<<< HEAD
-=======
 .home {
   position: relative;
 }
 .home-wrapper {
-  width: 50%; 
+  width: 50%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -16,13 +14,13 @@
   justify-content: space-between;
 }
 .oferta-wrapper {
-  width: 33%; 
+  width: 33%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
 .galeria-wrapper {
-  width: 25%; 
+  width: 25%;
 }
 .frame-group,
 .galeria-wrapper,
@@ -32,13 +30,13 @@
   align-items: flex-start;
 }
 .kontakt-wrapper {
-  width: 19.4%; 
+  width: 19.4%;
   flex-shrink: 0;
   justify-content: space-between;
 }
 .frame-group {
   justify-content: flex-start;
-  gap: 9.7em; 
+  gap: 9.7em;
 }
 .div {
   position: relative;
@@ -47,12 +45,11 @@
   color: var(--color-gainsboro);
   text-align: left;
   display: inline-block;
-  width: 12.3em; 
-  height: 1.8em; 
+  width: 12.3em;
+  height: 1.8em;
   flex-shrink: 0;
 }
 .frame-parent,
->>>>>>> 0ca86ae (Update index.css)
 .wrapper {
   position: relative;
   width: 100%;
@@ -113,29 +110,20 @@
 .phoneWrapper {
   cursor: pointer;
   border: 0;
-<<<<<<< HEAD
-  padding: 0 16;
-  background-color: rgba(127, 8, 29, 0.7);
-  width: 229px;
-  height: 100%;
-  flex-direction: column;
-  align-items: flex-end;
-
-=======
-  padding: 0 1em; 
+  padding: 0 1em;
   background-color: rgba(127, 8, 29, 0.7);
   border-radius: 6px;
   width: 14.3125em;
-  height: 2.75em; 
+  height: 2.75em;
   flex-direction: column;
   align-items: flex-end;
 }
 .frame-parent {
   position: absolute;
   top: 0;
-  left: 3.31em; 
-  width: 84.375em; 
-  height: 4.64em; 
+  left: 3.31em;
+  width: 84.375em;
+  height: 4.64em;
   flex-direction: row;
   align-items: center;
   padding: var(--padding-3xs);
@@ -145,7 +133,7 @@
   position: relative;
   border-top: 2px solid var(--color-gainsboro);
   box-sizing: border-box;
-  width: 100%; 
+  width: 100%;
   height: 0.125em;
 }
 .line-wrapper {
@@ -155,17 +143,17 @@
   justify-content: flex-start;
   padding: var(--padding-3xs);
 }
- .ob-logo-2-2-icon {
+.ob-logo-2-2-icon {
   position: relative;
   width: 11em;
-  height: 10.06em; 
+  height: 10.06em;
   object-fit: cover;
 }
 .ostrowscy-band {
   position: relative;
   display: inline-block;
-  width: 12.5em; 
-  height: 1.44em; 
+  width: 12.5em;
+  height: 1.44em;
   flex-shrink: 0;
 }
 .est-2002 {
@@ -176,14 +164,14 @@
   position: relative;
   display: flex;
   align-items: center;
-  width: 20.0625em; 
-  height: 1.44em; 
+  width: 20.0625em;
+  height: 1.44em;
   flex-shrink: 0;
 }
 .ostrowscy-band-parent {
-  width: 20.0625em; 
-  height: 6em; 
-  gap: 0.8125em; 
+  width: 20.0625em;
+  height: 6em;
+  gap: 0.8125em;
 }
 .ob-logo-2-2-parent,
 .ostrowscy-band-parent {
@@ -194,8 +182,8 @@
 }
 .vector-icon {
   position: relative;
-  width: 1.075em; 
-  height: 1.8375em; 
+  width: 1.075em;
+  height: 1.8375em;
   object-fit: cover;
 }
 .vector-wrapper {
@@ -208,8 +196,8 @@
 }
 .vector-icon1 {
   position: relative;
-  width: 1.8375em; 
-  height: 1.8375em; 
+  width: 1.8375em;
+  height: 1.8375em;
   object-fit: cover;
   z-index: 0;
 }
@@ -252,7 +240,7 @@
 .vector-icon4,
 .vector-icon5 {
   position: relative;
-  width: 2.69375em; 
+  width: 2.69375em;
   height: 1.98125em;
   object-fit: cover;
   z-index: 0;
@@ -261,8 +249,8 @@
   position: absolute;
   margin: 0 !important;
   top: 0.75em;
-  left: 1.125em; 
-  width: 0.4625em; 
+  left: 1.125em;
+  width: 0.4625em;
   height: 0.525em;
   z-index: 1;
 }
@@ -283,15 +271,15 @@
 .frame-div,
 .frame1 {
   flex-direction: row;
-  gap: 2.625em; 
+  gap: 2.625em;
 }
 .frame1 {
-  width: 20.0625em; 
-  height: 22.1875em; 
+  width: 20.0625em;
+  height: 22.1875em;
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: column;
-  gap: 3.1875em; 
+  gap: 3.1875em;
 }
 .kontakt1 {
   position: relative;
@@ -308,19 +296,19 @@
 }
 .frame3,
 .parent {
-  height: 12.8125em; 
+  height: 12.8125em;
   display: flex;
 }
 
 .frame3 {
-  width: 21.5em; 
+  width: 21.5em;
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 5.5625em; 
-  margin-left: -12.625em; 
+  gap: 5.5625em;
+  margin-left: -12.625em;
 }
 .parent {
   width: 21.5625em; /* Adjust based on your font size */
@@ -353,7 +341,7 @@
   color: var(--color-gainsboro);
 }
 .frame2 {
-  width: 21.5625em; 
+  width: 21.5625em;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
@@ -361,19 +349,19 @@
   color: var(--color-gainsboro);
 }
 .frame {
-  width: 83.5em; 
+  width: 83.5em;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 36.25em; 
+  gap: 36.25em;
   color: var(--text-white-222);
 }
 .frame-item {
   position: relative;
   border-top: 2px solid var(--color-gainsboro);
   box-sizing: border-box;
-  width: 84.0625em; 
-  height: 2px; 
+  width: 84.0625em;
+  height: 2px;
 }
 .created-designed-by-zofia-le-wrapper,
 .wszystkie-prawa-zastrzeone-wrapper {
@@ -390,10 +378,10 @@
 }
 .frame-container {
   position: absolute;
-  top: 680.875em; 
+  top: 680.875em;
   left: 0.125em;
-  width: 90em; 
-  height: 41.8125em; 
+  width: 90em;
+  height: 41.8125em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -402,13 +390,13 @@
 }
 .plw-1-icon {
   position: relative;
-  width: 43em; 
-  height: 49.875em; 
+  width: 43em;
+  height: 49.875em;
   object-fit: cover;
 }
 
 .plw-1-wrapper {
-  width: 43em; 
+  width: 43em;
   flex-shrink: 0;
   display: flex;
   flex-direction: row;
@@ -422,13 +410,13 @@
   font-weight: 600;
   font-family: inherit;
   display: inline-block;
-  width: 39.375em; 
+  width: 39.375em;
   flex-shrink: 0;
 }
 
 .nasza-oferta-wrapper {
-  width: 45.1875em; 
-  height: 4.9375em; 
+  width: 45.1875em;
+  height: 4.9375em;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -439,18 +427,18 @@
 .jako-zesp-muzyczny-container {
   position: relative;
   display: inline-block;
-  width: 39.4375em; 
+  width: 39.4375em;
   flex-shrink: 0;
   cursor: pointer;
 }
 
 .jako-zesp-muzyczny-obsuguje-wrapper {
-  width: 45.1875em; 
+  width: 45.1875em;
   flex-shrink: 0;
   flex-direction: row;
   padding: var(--padding-3xs);
   box-sizing: border-box;
-  font-size: 30px; 
+  font-size: 30px;
 }
 .frame-parent1,
 .frame-parent2,
@@ -462,25 +450,25 @@
 .jako-zesp-muzyczny-container {
   position: relative;
   display: inline-block;
-  width: 39.4375em; 
+  width: 39.4375em;
   flex-shrink: 0;
   cursor: pointer;
 }
 
 .jako-zesp-muzyczny-obsuguje-wrapper {
-  width: 45.1875em; 
+  width: 45.1875em;
   flex-shrink: 0;
   flex-direction: row;
   padding: var(--padding-3xs);
   box-sizing: border-box;
-  font-size: 30px; 
+  font-size: 30px;
 }
 .plw-1-icon1 {
   position: absolute;
   top: 0.0625em;
   left: 0;
-  width: 18em; 
-  height: 27.0375em; 
+  width: 18em;
+  height: 27.0375em;
   object-fit: cover;
 }
 
@@ -490,96 +478,44 @@
 .plw-1-icon3 {
   position: absolute;
   top: 0;
-  left: 36em; 
-  width: 18em; 
-  height: 27.05em; 
+  left: 36em;
+  width: 18em;
+  height: 27.05em;
   object-fit: cover;
 }
 .n-1-icon,
 .n-1-icon1,
 .plw-1-icon3 {
-  left: 18em; 
-  height: 26.975em; 
+  left: 18em;
+  height: 26.975em;
 }
 
 .n-1-icon1,
 .plw-1-icon3 {
   top: 0.0625em;
-  left: 54em; 
-  height: 27.05em; 
+  left: 54em;
+  height: 27.05em;
 }
 .n-1-icon1 {
   top: 0;
-  left: 72em; 
+  left: 72em;
   height: 27.00625em;
 }
 
 .plw-1-parent {
   position: relative;
-  width: 90em; 
-  height: 27.1125em; 
+  width: 90em;
+  height: 27.1125em;
 }
 .group-wrapper {
-  width: 89.875em; 
-  height: 27.1125em; 
+  width: 89.875em;
+  height: 27.1125em;
   display: flex;
   flex-direction: column;
->>>>>>> 0ca86ae (Update index.css)
   align-items: center;
   justify-content: center;
 }
 
-<<<<<<< HEAD
-.phone {
-  font-size: 24px;
-  color: #d9d9d9;
-}
-
-@media only screen and (max-width: 900px) {
-  .navigator {
-    font-size: 14px;
-  }
-
-  .navButton {
-    padding: 0px 10px;
-  }
-
-  .phoneWrapper {
-    width: 150px;
-  }
-
-  .phone {
-    font-size: 16px;
-    color: #d9d9d9;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .navigator {
-    font-size: 12px;
-  }
-
-  .navButton {
-    padding: 0px 6px;
-  }
-
-  .phoneWrapper {
-    width: 140px;
-  }
-
-  .phone {
-    font-size: 12px;
-    color: #d9d9d9;
-  }
-}
-
-/* ---------------------------- Hero ------------------------------------- */
-
-.heroWrapper {
-  margin-top: 70px;
-  width: 100%;
-  position: relative;
-=======
 .o-nas {
   margin: 0;
   position: relative;
@@ -587,9 +523,8 @@
   font-weight: 600;
   font-family: inherit;
   display: inline-block;
-  width: 42.5625em; 
+  width: 42.5625em;
   flex-shrink: 0;
->>>>>>> 0ca86ae (Update index.css)
 }
 
 .heroImage {
