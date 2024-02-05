@@ -1,515 +1,343 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
+<html lang="pl-PL">
 
-    <link rel="stylesheet" href="./global.css" />
-    <link rel="stylesheet" href="./index.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
-    />
-  </head>
-  <body>
-    <div class="group-parent">
-      <div class="rectangle-parent">
-        <div class="group-child"></div>
-        <div class="frame-parent">
-          <div class="frame-group">
-            <div class="home-wrapper">
-              <div class="home">HOME</div>
-            </div>
-            <div class="oferta-wrapper">
-              <div class="home">OFERTA</div>
-            </div>
-            <div class="galeria-wrapper">
-              <div class="home">GALERIA</div>
-            </div>
-            <div class="kontakt-wrapper">
-              <div class="home">KONTAKT</div>
-            </div>
-          </div>
-          <button class="wrapper" id="frameButton">
-            <div class="div">+48 506 476 067</div>
-          </button>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <title>Ostrowscy Band - Zespół Muzyki Rozrywkowej</title>
+
+  <meta property="og:title" content="Ostrowscy Band">
+  <meta property='og:description' content='Zespół Muzyki Rozrywkowej' />
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com">
+  <meta property="og:image" content="https://example.com/social/socialImg.jpeg">
+  <meta property="og:image:alt" content="Logo zespołu Ostrowscy Band">
+
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" />
+
+  <link rel="icon" type="image/x-icon" href="./public/favicon.ico">
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <nav class="navigator">
+      <div class="navButtonWrapper">
+        <a href="#" class="navButton">HOME</a>
+        <a href="#offer" class="navButton">OFERTA</a>
+        <a href="#gallery" class="navButton">GALERIA</a>
+        <a href="#contact" class="navButton">KONTAKT</a>
+      </div>
+
+      <a href="tel:+48506476067" class="phoneWrapper">
+        <div class="phone">+48 506 476 067</div>
+      </a>
+    </nav>
+
+    <section class="heroWrapper">
+      <img class="heroImage"
+        alt="Zespół muzyki rozrywkowej Ostrowscy Band składający się z pięciu artystów na scenie: wokalistki z mikrofonem i czterech mężczyzn grających na instrumentach - gitarze elektrycznej, saksofonie, perkusji i klawiszach"
+        src="./public/hero.png" />
+      <h1 class="heroTittle">OSTROWSCY BAND</h1>
+    </section>
+
+    <section class="decriptionSection">
+      <div class="logoTopWrapper">
+        <img class="logoTop"
+          alt="Logo zespołu Ostrowscy Band zawierające ikonę mikrofonu, rok założenia 2002 i rodzinny zespół muzyczny"
+          src="./public/logo.png" />
+      </div>
+
+      <div class="socialWrapper">
+        <a href="https://www.facebook.com/ostrowscyband/about/?ref=page_internal&locale=pl_PL&paipv=0&eav=AfZ0iFpafxbnc6DyiL4bYjhc5ly0VGooSx4hqmEzBhfef6LQDz5MFBK1vF6asGWU2b0&_rdr"
+          class="socialLinkContainer" aria-label="Odwiedź stronę zespołu Ostrowscy Band na Facebooku" target="_blank">
+          <img class="socialImages" alt="Logo Facebooka zawierające link do profilu Ostrowscy Band"
+            src="./public/icons/facebook.svg" />
+        </a>
+        <a href="https://www.instagram.com/ostrowscyband/"
+          aria-label="Odwiedź stronę zespołu Ostrowscy Band na Instagramie" class="socialLinkContainer" target="_blank">
+          <img class="socialImages" alt="Logo Instagram zawierające link do profilu Ostrowscy Band"
+            src="./public/icons/instagram.svg" />
+        </a>
+        <a href="https://www.youtube.com/@ostrowscyband5489"
+          aria-label="Odwiedź stronę zespołu Ostrowscy Band na YouTube" class="socialLinkContainer" target="_blank">
+          <img class="socialImages" alt="Logo YouTube zawierające link do profilu Ostrowscy Band"
+            src="./public/icons/youtube.svg" />
+        </a>
+      </div>
+    </section>
+
+    <section class="offerScetion" id="offer">
+      <article>
+        <h2 class="titleOffer">NASZA OFERTA</h2>
+
+        <div class="descriptionOffer">
+          <p>
+            Jako zespół muzyczny obsługujemy
+          </p>
+          <p>imprezy rozrywkowe - wesela,</p>
+          <p>
+            studniówki i wiele, wiele innych.
+          </p>
+          <p style="margin-top: 20px !important;">
+            Zapraszamy na nasz kanał YouTube!
+          </p>
+          <p style="margin-top: 20px !important;">
+            <a href="https://www.youtube.com/@ostrowscyband5489"
+              aria-label="Odwiedź stronę zespołu Ostrowscy Band na YouTube"
+              target="_blank">https://www.youtube.com/@ostrowscyband5489</a>
+          </p>
         </div>
-        <div class="frame-container">
-          <div class="line-wrapper">
-            <div class="frame-child"></div>
-          </div>
-          <div class="frame">
-            <div class="frame1">
-              <div class="ob-logo-2-2-parent">
-                <img
-                  class="ob-logo-2-2-icon"
-                  alt=""
-                  src="./public/ob-logo2-2@2x.png"
-                />
+      </article>
 
-                <div class="ostrowscy-band-parent">
-                  <div class="ostrowscy-band">OSTROWSCY BAND</div>
-                  <div class="est-2002">EST. 2002</div>
-                  <div class="rodzinny-zesp-muzyczny">
-                    RODZINNY ZESPÓŁ MUZYCZNY
-                  </div>
-                </div>
-              </div>
-              <div class="frame-div">
-                <div class="vector-wrapper" id="frameContainer9">
-                  <img
-                    class="vector-icon"
-                    alt=""
-                    src="./public/vector@2x.png"
-                  />
-                </div>
-                <div class="vector-parent" id="frameContainer10">
-                  <img
-                    class="vector-icon1"
-                    alt=""
-                    src="./public/vector@2x.png"
-                  />
+      <div>
+        <img class="offerImage"
+          alt="Radosna wokalistka w tradycyjnym stroju ludowym śpiewająca na weselu o rustykalnym charakterze"
+          src="./public/offer.jpg" />
+      </div>
+    </section>
 
-                  <img
-                    class="vector-icon2"
-                    alt=""
-                    src="./public/vector@2x.png"
-                  />
+    <section class="aboutUsSection">
+      <h2 class="aboutUsTitle">O NAS</h2>
 
-                  <img
-                    class="vector-icon3"
-                    alt=""
-                    src="./public/vector@2x.png"
-                  />
-                </div>
-                <div class="vector-group" id="frameContainer11">
-                  <img
-                    class="vector-icon4"
-                    alt=""
-                    src="./public/vector@2x.png"
-                  />
+      <article class="aboutUsDescription">
+        <p>
+          Młodość, tradycja, rodzina, zaangażowanie!
+        </p>
+        <p>
+          Tych kilka słów wystarczy by opisać nasz zespół.
+        </p>
 
-                  <img
-                    class="vector-icon5"
-                    alt=""
-                    src="./public/vector@2x.png"
-                  />
-                </div>
-              </div>
-            </div>
-            <div class="frame2">
-              <div class="kontakt-parent">
-                <div class="kontakt1">KONTAKT</div>
-                <div class="parent">
-                  <div class="kontakt1">+48 506 476 067</div>
-                  <div class="frame3">
-                    <div class="home">
-                      <p class="skodowska-17-brask">Skłodowska 17, Brańsk</p>
-                      <p class="skodowska-17-brask">Poland</p>
-                    </div>
-                    <a
-                      class="ostrowscybandgmailcom"
-                      href="mailto:ostrowscyband@gmail.com"
-                      target="_blank"
-                    >
-                      <p class="skodowska-17-brask">ostrowscyband@gmail.com</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="line-wrapper">
-            <div class="frame-item"></div>
-          </div>
-          <div class="wszystkie-prawa-zastrzeone-wrapper">
-            <div class="home">Wszystkie prawa zastrzeżone © 2023</div>
-          </div>
-          <div class="created-designed-by-zofia-le-wrapper">
-            <div class="home">created & designed by Zofia Lewandowska</div>
-          </div>
-        </div>
-        <div class="frame-parent1">
-          <div class="plw-1-wrapper">
-            <img class="plw-1-icon" alt="" src="./public/4847-plw-1@2x.png" />
-          </div>
-          <div class="frame-parent2">
-            <div class="nasza-oferta-wrapper">
-              <h2 class="nasza-oferta">NASZA OFERTA</h2>
-            </div>
-            <div class="jako-zesp-muzyczny-obsuguje-wrapper">
-              <div class="jako-zesp-muzyczny-container" id="jakoZespMuzyczny">
-                <p class="skodowska-17-brask">
-                  Jako zespół muzyczny obsługujemy
-                </p>
-                <p class="skodowska-17-brask">imprezy rozrywkowe - wesela,</p>
-                <p class="skodowska-17-brask">
-                  studniówki i wiele, wiele innych.
-                </p>
-                <p class="skodowska-17-brask">&nbsp;</p>
-                <p class="skodowska-17-brask">
-                  Zapraszamy na nasz kanał YouTube!
-                </p>
-                <p class="skodowska-17-brask">&nbsp;</p>
-                <p class="skodowska-17-brask">
-                  https://www.youtube.com/@ostrowscyband5489
-                </p>
-              </div>
-            </div>
+        <p style="margin-top: 20px;">
+          Wykształcenie muzyczne jest naszym atutem,
+        </p>
+        <p>
+          który doskonalimy każdego dnia.
+        </p>
+        <p>W graniu rozrywki wyróżnia</p>
+        <p>
+          nas pokoleniowe doświadczenie.
+        </p>
+      </article>
+    </section>
+
+
+    <section class="meetUs">
+      <h2 class="meetUsTitle">POZNAJMY SIĘ!</h2>
+
+      <div class="meetUsParticipantsGrid">
+        <img class="meetUsParticipantsImage"
+          alt="Zespół muzyki rozrywkowej Ostrowscy Band, rodzina, założyciel zespołu w ciemnych okularach trzyma akordeon, gra na peruksji, zdjęcie w stylu czarno-białym."
+          src="./public/meetUs/wojtek.png" />
+        <div>
+          <h3 class="meetUsParticipantsName">WOJTEK</h3>
+
+          <div class="meetUsParticipantsNameDescription">
+            <p>
+              Założyciel zespołu. Jego miłością jest akordeon, a uzupełnia
+              to grą na perkusji.
+            </p>
+            <p>
+              W latach młodości grał w zespole Eksperyment. Nauczyciel
+              historii.
+            </p>
+            <p>
+              W weselach najbardziej lubi wyjazdy u Pary Młodej.
+            </p>
           </div>
         </div>
-        <div class="frame-parent3">
-          <div class="group-wrapper">
-            <div class="plw-1-parent">
-              <img
-                class="plw-1-icon1"
-                alt=""
-                src="./public/3249-plw-1@2x.png"
-              />
 
-              <img
-                class="plw-1-icon2"
-                alt=""
-                src="./public/3272-plw-1@2x.png"
-              />
+        <img class="meetUsParticipantsImage"
+          alt="Zespół muzyki rozrywkowej Ostrowscy Band, rodzina, osoba w ciemnych okularach grająca na klawiszach, zajmuje się obsługą techniczną wesel, zdjęcie w stylu czarno-białym."
+          src="./public/meetUs/pawel.png" />
+        <div>
+          <h3 class="meetUsParticipantsName">PAWEŁ</h3>
 
-              <img
-                class="n-1-icon"
-                alt=""
-                src="./public/139952337-2509830302653714-7603442579776717190-n-1@2x.png"
-              />
-
-              <img
-                class="plw-1-icon3"
-                alt=""
-                src="./public/3100-plw-1@2x.png"
-              />
-
-              <img
-                class="n-1-icon1"
-                alt=""
-                src="./public/242654280-350617529867563-4207779050634055777-n-1@2x.png"
-              />
-            </div>
-          </div>
-          <div class="frame-wrapper">
-            <div class="frame-frame">
-              <div class="frame4">
-                <div class="o-nas-wrapper">
-                  <h2 class="o-nas">O NAS</h2>
-                </div>
-                <div class="modo-tradycja-rodzina-za-wrapper">
-                  <div class="modo-tradycja-rodzina-container">
-                    <p class="skodowska-17-brask">
-                      Młodość, tradycja, rodzina, zaangażowanie!
-                    </p>
-                    <p class="skodowska-17-brask">
-                      Tych kilka słów wystarczy by opisać nasz zespół.
-                    </p>
-                    <p class="skodowska-17-brask">&nbsp;</p>
-                    <p class="skodowska-17-brask">
-                      Wykształcenie muzyczne jest naszym atutem,
-                    </p>
-                    <p class="skodowska-17-brask">
-                      który doskonalimy każdego dnia.
-                    </p>
-                    <p class="skodowska-17-brask">W graniu rozrywki wyróżnia</p>
-                    <p class="skodowska-17-brask">
-                      nas pokoleniowe doświadczenie.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="meetUsParticipantsNameDescription">
+            <p>
+              Osoba od zadań specjalnych!
+            </p>
+            <p>
+              Nasz kierowca, klawiszowiec - w głównej mierze
+              odpowiedzialny za sprzęt,
+            </p>
+            <p>
+              światła i sprawy techniczne.
+            </p>
           </div>
         </div>
-        <div class="frame-parent4">
-          <div class="group-container">
-            <div class="group-div">
-              <div class="n-1-wrapper">
-                <img
-                  class="n-1-icon2"
-                  alt=""
-                  src="./public/81169363-2209504306019650-3835851965120643072-n-1@2x.png"
-                />
-              </div>
-              <div class="wojtek-wrapper">
-                <h3 class="wojtek">WOJTEK</h3>
-              </div>
-              <div class="zaoyciel-zespou-jego-mio-wrapper">
-                <div class="home">
-                  <p class="skodowska-17-brask">
-                    Założyciel zespołu. Jego miłością jest akordeon, a uzupełnia
-                    to grą na perkusji.
-                  </p>
-                  <p class="skodowska-17-brask">
-                    W latach młodości grał w zespole Eksperyment. Nauczyciel
-                    historii.
-                  </p>
-                  <p class="skodowska-17-brask">
-                    W weselach najbardziej lubi wyjazdy u Pary Młodej.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="group-frame">
-            <div class="frame-parent5">
-              <div class="pawe-wrapper">
-                <h3 class="wojtek">PAWEŁ</h3>
-              </div>
-              <div class="osoba-od-zada-specjalnych-n-wrapper">
-                <div class="home">
-                  <p class="skodowska-17-brask">Osoba od zadań specjalnych! </p>
-                  <p class="skodowska-17-brask">
-                    Nasz kierowca, klawiszowiec - w głównej mierze
-                    odpowiedzialny za sprzęt,
-                  </p>
-                  <p class="skodowska-17-brask">światła i sprawy techniczne.</p>
-                </div>
-              </div>
-              <div class="n-1-container">
-                <img
-                  class="n-1-icon3"
-                  alt=""
-                  src="./public/314716442-658934925702487-6321565740005801554-n-1@2x.png"
-                />
-              </div>
-            </div>
-          </div>
-          <div class="group-wrapper1">
-            <div class="frame-parent6">
-              <div class="n-1-container">
-                <img
-                  class="n-1-icon4"
-                  alt=""
-                  src="./public/158838758-2540845172885560-2485224244900129736-n-1@2x.png"
-                />
-              </div>
-              <div class="jola-wrapper">
-                <h3 class="wojtek">JOLA</h3>
-              </div>
-              <div class="nasza-wokalistka-serce-i-dus-wrapper">
-                <div class="home">
-                  <p class="skodowska-17-brask">
-                    Nasza wokalistka - serce i dusza bandu. 
-                  </p>
-                  <p class="skodowska-17-brask">
-                    Estrada to jej największa pasja. W muzyce realizuje się
-                    także jako pedagog.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="group-wrapper2">
-            <div class="frame-parent7">
-              <div class="rectangle-wrapper">
-                <img
-                  class="frame-inner"
-                  alt=""
-                  src="./public/rectangle-14@2x.png"
-                />
-              </div>
-              <div class="piotrek-wrapper">
-                <h4 class="wojtek">PIOTREK</h4>
-              </div>
-              <div class="gitara-jest-dla-niego-niezwykl-wrapper">
-                <div class="home">
-                  <p class="skodowska-17-brask">
-                    Gitara jest dla niego niezwykle ważna.
-                  </p>
-                  <p class="skodowska-17-brask">
-                    Jest również dyrygentem chóru Harmonica oraz nauczycielem..
-                    historii.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="group-wrapper3">
-            <div class="n-2-parent">
-              <img
-                class="n-2-icon"
-                alt=""
-                src="./public/100586203-2322377278065685-339261893367562240-n-2@2x.png"
-              />
 
-              <h3 class="mateusz">MATEUSZ</h3>
-              <div class="jego-ywioem-na-container">
-                <p class="skodowska-17-brask">
-                  Jego żywiołem na weselach jest saksofon,
-                </p>
-                <p class="skodowska-17-brask">
-                  natomiast nie jedynym talentem… Uczy gry klarnecie.
-                </p>
-              </div>
-            </div>
+        <img class="meetUsParticipantsImage"
+          alt="Zespół muzyki rozrywkowej Ostrowscy Band, rodzina, wokalistka w czerwonej sukience, śpiew rozrywkowy."
+          src="./public/meetUs/jola.png" />
+        <div>
+          <h3 class="meetUsParticipantsName">JOLA</h3>
+
+          <div class="meetUsParticipantsNameDescription">
+            <p>
+              Nasza wokalistka - serce i dusza bandu. 
+            </p>
+            <p>
+              Estrada to jej największa pasja. W muzyce realizuje się
+              także jako pedagog.
+            </p>
           </div>
         </div>
-        <div class="frame-parent8">
-          <div class="n-1-3-wrapper">
-            <img
-              class="n-1-3"
-              alt=""
-              src="./public/123632485-2454993531470725-2026385896826897661-n-1-3@2x.png"
-            />
-          </div>
-          <div class="ob-logo-2-2-wrapper">
-            <img
-              class="ob-logo-2-2-icon1"
-              alt=""
-              src="./public/ob-logo2-2@2x.png"
-            />
-          </div>
-          <div class="frame-wrapper1">
-            <div class="frame-parent9">
-              <div class="vector-container" id="frameContainer55">
-                <img class="vector-icon" alt="" src="./public/vector@2x.png" />
-              </div>
-              <div class="vector-parent1" id="frameContainer56">
-                <img class="vector-icon1" alt="" src="./public/vector@2x.png" />
 
-                <img class="vector-icon2" alt="" src="./public/vector@2x.png" />
+        <img class="meetUsParticipantsImage"
+          alt="Zespół muzyki rozrywkowej Ostrowscy Band, rodzina, osoba w ciemnych okularach śpiewjąca i grająca na gitarze elektrycznej, zdjęcie w stylu czarno-białym."
+          src="./public/meetUs/piotr.png" />
+        <div>
+          <h3 class="meetUsParticipantsName">PIOTREK</h3>
 
-                <img class="vector-icon3" alt="" src="./public/vector@2x.png" />
-              </div>
-              <div class="vector-parent2" id="frameContainer57">
-                <img class="vector-icon4" alt="" src="./public/vector@2x.png" />
-
-                <img class="vector-icon5" alt="" src="./public/vector@2x.png" />
-              </div>
-            </div>
+          <div class="meetUsParticipantsNameDescription">
+            <p>
+              Gitara jest dla niego niezwykle ważna.
+            </p>
+            <p>
+              Jest również dyrygentem chóru Harmonica oraz nauczycielem..
+              historii.
+            </p>
           </div>
         </div>
-        <div class="frame-parent10">
-          <div class="galeria-container">
-            <h2 class="galeria1">GALERIA</h2>
-          </div>
-          <img
-            class="n-1-icon5"
-            alt=""
-            src="./public/415259297-18034337593666341-7852435293941474679-n-1@2x.png"
-          />
 
-          <div class="n-2-container">
-            <div class="n-2-wrapper">
-              <img
-                class="n-2-icon1"
-                alt=""
-                src="./public/36414783-1841485272821557-8006668382411685888-n-2@2x.png"
-              />
-            </div>
+        <img class="meetUsParticipantsImage"
+          alt="Zespół muzyki rozrywkowej Ostrowscy Band, osoba w ciemnych okularach, grająca na saksofonie, zdjęcie w stylu czarno-białym."
+          src="./public/meetUs/mateusz.png" />
+        <div>
+          <h3 class="meetUsParticipantsName">MATEUSZ</h3>
+
+          <div class="meetUsParticipantsNameDescription">
+            <p>
+              Jego żywiołem na weselach jest saksofon,
+            </p>
+            <p>
+              natomiast nie jedynym talentem… Uczy gry klarnecie.
+            </p>
           </div>
-          <div class="plw-1-container">
-            <img
-              class="n-1-icon6"
-              alt=""
-              src="./public/81888014-2220344728268941-5278593451930157056-n-1@2x.png"
-            />
+        </div>
+
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2 class="galleryTitle">GALERIA</h2>
+
+      <div class="galleryGrid">
+        <img class="galleryImage" style="grid-area: a;"
+          alt="Zespół muzyki rozrywkowej Ostrowscy Band grający na scenie, wokalistka śpiewa do mikrofonu, osoba grająca na gitarze, osoba grająca na saksofonie, osoba grająca na perkusji, efekty specjalne podczas występu na scenie."
+          src="./public/gallery/ostowscyOrange.png" />
+
+        <img class="galleryImage" style="grid-area: b;"
+          alt="Zespół muzyki rozrywkowej Ostrowscy Band, osoba grająca na scenie na saksofonie, instrumenty na scenie - gitara elektryczna, gitara basowa, efekty specjalne pod- zielone światło."
+          src="./public/gallery/mateuszZielony.png" />
+
+        <img class="galleryImage" style="grid-area: c;"
+          alt="Zespół muzyki rozrywkowej Ostrowscy Band, osoba w ciemnych okularach gra na peruksji."
+          src="./public/gallery/wojtekBebny.jpg" />
+
+        <img class="galleryImage" style="grid-area: d;"
+          alt="Zespół muzyki rozrywkowej Ostrowscy Band, wokalistka śpiewająca na scenie do mikrofonu, efekty specjalne podczas występu na scenie - różowe światło."
+          src="./public/gallery/jolaSpiewaRozowa.png" />
+
+        <img class="galleryImage" style="grid-area: e;"
+          alt="Zespół muzyki rozrywkowej Ostrowscy Band, wokalistka śpiewająca na scenie do mikrofonu i osoba grająca na gitarze, koncert w ciemności, efekty specjalne - światła na scenie."
+          src="./public/gallery/scenaSwiatlaNiebieskie.png" />
+
+        <img class="galleryImage" style="grid-area: f;"
+          alt="Zespół muzyki rozrywkowej Ostrowscy Band, wokalistka śpiewająca na scenie do mikrofonu i osoba grająca na gitarze, koncert w ciemności, efekty specjalne - refloktory, fotografia - smuga świetlna."
+          src="./public/gallery/scenaNiebieskoRozowa.png" />
+
+        <img class="galleryImage" style="grid-area: g;"
+          alt="Zespół muzyki rozrywkowej Ostrowscy Band, osoba śpiewająca na scenie do mikrofonu i grająca na gitarze, efekty specjalne podczas występu na scenie - różowe światło."
+          src="./public/gallery/piotrRozowy.png" />
+
+        <img class="galleryImage" style="grid-area: h;"
+          alt="Zespół muzyki rozrywkowej Ostrowscy Band, osoba grająca na akordeonie, wesele, rozbłyski światła, fotografia - gra świateł"
+          src="./public/gallery/wojtekAkordeonCiemne.png" />
+
+        <img class="galleryImage" style="grid-area: i;"
+          alt="Zespół muzyki rozrywkowej Ostrowscy Band, osoba śpiewająca w czerwonej sukience do mikrofonu, wesele, rozbłyski światła, fotografia - gra świateł."
+          src="./public/gallery/jolaCzerwona.png" />
+
+        <img class="galleryImage" style="grid-area: j;"
+          alt="wesele, para młoda tańcząca w centrum i tłum gości dookoła, muzyka rozrywkowa, taniec."
+          src="./public/gallery/wesele.png" />
+      </div>
+
+    </section>
+
+    <footer class="footerSection" id="contact">
+      <div class="lineSeparator"></div>
+
+      <div class="footerGrid">
+        <div>
+          <div class="logoFooterWrapper">
+            <img class="logoTop"
+              alt="Logo zespołu Ostrowscy Band zawierające ikonę mikrofonu, rok założenia 2002 i rodzinny zespół muzyczny"
+              src="./public/logo.png" />
           </div>
-          <div class="plw-1-container">
-            <img class="plw-1-icon4" alt="" src="./public/3074-plw-1@2x.png" />
+          <p>OSTROWSCY BAND</p>
+          <p>EST. 2002</p>
+          <p>RODZINNY ZESPÓŁ MUZYCZNY</p>
+
+          <div class="footerSocialWrapper">
+            <a href="https://www.facebook.com/ostrowscyband/about/?ref=page_internal&locale=pl_PL&paipv=0&eav=AfZ0iFpafxbnc6DyiL4bYjhc5ly0VGooSx4hqmEzBhfef6LQDz5MFBK1vF6asGWU2b0&_rdr"
+              class="socialLinkContainer" aria-label="Odwiedź stronę zespołu Ostrowscy Band na Facebooku"
+              target="_blank">
+              <img class="socialImages" alt="Logo Facebooka zawierające link do profilu Ostrowscy Band"
+                src="./public/icons/facebook.svg" />
+            </a>
+            <a href="https://www.instagram.com/ostrowscyband/"
+              aria-label="Odwiedź stronę zespołu Ostrowscy Band na Instagramie" class="socialLinkContainer"
+              target="_blank">
+              <img class="socialImages" alt="Logo Instagram zawierające link do profilu Ostrowscy Band"
+                src="./public/icons/instagram.svg" />
+            </a>
+            <a href="https://www.youtube.com/@ostrowscyband5489"
+              aria-label="Odwiedź stronę zespołu Ostrowscy Band na YouTube" class="socialLinkContainer" target="_blank">
+              <img class="socialImages" alt="Logo YouTube zawierające link do profilu Ostrowscy Band"
+                src="./public/icons/youtube.svg" />
+            </a>
           </div>
-          <div class="n-3-wrapper">
-            <img
-              class="n-3-icon"
-              alt=""
-              src="./public/259426332-391059462490036-246853998020500127-n-3@2x.png"
-            />
+        </div>
+        <div>
+          <p>KONTAKT</p>
+          <div style="margin-top: 20px;" class="footerPhone">
+            <a href="tel:+48506476067">
+              +48 506 476 067
+            </a>
           </div>
-          <div class="n-1-3-wrapper">
-            <div class="n-1-wrapper2">
-              <img
-                class="n-1-icon7"
-                alt=""
-                src="./public/259411483-391059649156684-5589497321481906218-n-1@2x.png"
-              />
-            </div>
+          <p style="margin-top: 20px">Skłodowska 17, Brańsk</p>
+          <p>Poland</p>
+          <div class="footerMail" style="margin-top: 20px">
+            <a href="mailto:ostrowscyband@gmail.com"
+              aria-label="Napisz do nas e-maila na adres kontaktowy zespołu Ostrowscy Band">ostrowscyband@gmail.com</a>
           </div>
-          <div class="plw-1-frame">
-            <img class="plw-1-icon5" alt="" src="./public/3345-plw-1@2x.png" />
-          </div>
-          <div class="n-2-container">
-            <img
-              class="n-2-icon2"
-              alt=""
-              src="./public/83069875-2227073960929351-3697987006727454720-n-2@2x.png"
-            />
-          </div>
-          <div class="plw-1-container">
-            <img
-              class="n-1-icon8"
-              alt=""
-              src="./public/158278670-2540845196218891-1330622512670283716-n-1@2x.png"
-            />
-          </div>
-          <img
-            class="n-1-icon9"
-            alt=""
-            src="./public/292594162-550172846578696-8512930045642405377-n-1@2x.png"
-          />
         </div>
       </div>
-    </div>
 
-    <script>
-      var frameButton = document.getElementById("frameButton");
-      if (frameButton) {
-        frameButton.addEventListener("click", function () {
-          window.location.href = "tel:+48506476067";
-        });
-      }
-      
-      var frameContainer9 = document.getElementById("frameContainer9");
-      if (frameContainer9) {
-        frameContainer9.addEventListener("click", function () {
-          window.location.href = "https://www.facebook.com/ostrowscyband";
-        });
-      }
-      
-      var frameContainer10 = document.getElementById("frameContainer10");
-      if (frameContainer10) {
-        frameContainer10.addEventListener("click", function () {
-          window.location.href = "https://www.instagram.com/ostrowscyband/";
-        });
-      }
-      
-      var frameContainer11 = document.getElementById("frameContainer11");
-      if (frameContainer11) {
-        frameContainer11.addEventListener("click", function () {
-          window.location.href =
-            "https://www.youtube.com/results?search_query=ostrowscy+band";
-        });
-      }
-      
-      var jakoZespMuzyczny = document.getElementById("jakoZespMuzyczny");
-      if (jakoZespMuzyczny) {
-        jakoZespMuzyczny.addEventListener("click", function () {
-          window.location.href = "https://www.youtube.com/@ostrowscyband5489";
-        });
-      }
-      
-      var frameContainer55 = document.getElementById("frameContainer55");
-      if (frameContainer55) {
-        frameContainer55.addEventListener("click", function () {
-          window.location.href = "https://www.facebook.com/ostrowscyband";
-        });
-      }
-      
-      var frameContainer56 = document.getElementById("frameContainer56");
-      if (frameContainer56) {
-        frameContainer56.addEventListener("click", function () {
-          window.location.href = "https://www.instagram.com/ostrowscyband/";
-        });
-      }
-      
-      var frameContainer57 = document.getElementById("frameContainer57");
-      if (frameContainer57) {
-        frameContainer57.addEventListener("click", function () {
-          window.location.href = "https://www.youtube.com/@ostrowscyband5489";
-        });
-      }
-      </script>
-  </body>
+      <div class="lineSeparator"></div>
+
+      <section class="authorSection">
+        <p>All Rights Reserved © 2023</p>
+        <p style="margin-top: 30px;">
+          Designed by Zofia Lewandowska
+        </p>
+        <div class="portfolioLink">
+          <a href="https://slewand99d5a4.myportfolio.com/"
+            aria-label="Zobacz portfolio Zofii Lewandowskiej, designera odpowiedzialnego za projekt naszej strony"
+            target="_blank">https://slewand99d5a4.myportfolio.com/
+          </a>
+        </div>
+      </section>
+    </footer>
+
+  </div>
+
+</body>
+
 </html>
